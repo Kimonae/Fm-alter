@@ -1,0 +1,15 @@
+header {
+
+    position: absolute;
+    top: 0;
+    right: 1px;
+    font-size: 18px;
+    color:black;
+}
+
+
+nav a {
+    padding: 8px;
+    color:black;
+    text-decoration:none;
+   }
