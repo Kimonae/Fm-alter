@@ -13,3 +13,73 @@ nav a {
     color:black;
     text-decoration:none;
    }
+
+
+   #btn_date {
+
+    border-radius: 25px;
+    background-color: rgba(116, 113, 113, 0.099);
+    color:rgba(216, 213, 213, 0.788);
+    font-weight: bolder;
+    /*opacity: 40%;*/
+
+   }
+
+
+
+#banniere{
+
+  width: 1350px;
+  height: 550px;
+  position: absolute;
+  left: 80px;
+  top: 70px;
+  z-index: -1;
+
+}
+
+#salon {
+
+
+    color: white;
+    background-color: rgb(139, 16, 16);
+    border-radius: 25px ;
+    padding: 15px;
+    font-weight: bolder;
+
+
+}
+
+#billeterie {
+
+
+    color: rgb(139, 16, 16);;
+    background-color: white;
+    border-radius: 25px ;
+    padding: 15px;
+    font-weight: bolder;
+
+}
+
+#rassemblement {
+
+    position: absolute;
+
+    left: 500px ;
+    top: 700px;
+    width: 25%;
+}
+
+.aass {
+
+position: absolute;
+    top: 2500px;
+}
+
+#sal_vin {
+
+    position: absolute;
+    left: 150px;
+    top: 280px;
+    color: white ;
+}
