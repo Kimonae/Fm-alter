@@ -22,6 +22,9 @@ nav a {
     color:rgba(216, 213, 213, 0.788);
     font-weight: bolder;
     /*opacity: 40%;*/
+    position: absolute;
+    top:275px;
+    left:150px;
 
    }
 
@@ -83,3 +86,24 @@ position: absolute;
     top: 280px;
     color: white ;
 }
+
+ #fruits {
+
+    width: 1350px;
+    height: 350px;
+    position: absolute;
+    left: 80px;
+    top: 1070px;
+    z-index: -1;
+
+
+ }
+/*#salon2 {
+
+    color: white;
+    background-color: rgb(139, 16, 16);
+    border-radius: 25px ;
+    padding: 15px;
+    font-weight: bolder;
+
+} */
