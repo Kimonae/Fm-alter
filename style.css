@@ -41,26 +41,26 @@ nav a {
 
 }
 
-#salon {
+#salon, #stand {
 
 
     color: white;
     background-color: rgb(139, 16, 16);
     border-radius: 25px ;
     padding: 15px;
-    font-weight: bolder;
+    font-weight: bold;
 
 
 }
 
-#billeterie {
+#billeterie, #expo {
 
 
     color: rgb(139, 16, 16);;
     background-color: white;
     border-radius: 25px ;
     padding: 15px;
-    font-weight: bolder;
+    font-weight: bold;
 
 }
 
@@ -73,11 +73,7 @@ nav a {
     width: 25%;
 }
 
-.aass {
 
-position: absolute;
-    top: 2500px;
-}
 
 #sal_vin {
 
@@ -93,11 +89,53 @@ position: absolute;
     height: 350px;
     position: absolute;
     left: 80px;
-    top: 1070px;
+    top: 1170px;
     z-index: -1;
 
 
  }
+
+  #Rasse {
+
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 430px;
+    height: 470px;
+     
+  }
+  #Rasse2 {
+
+    position: absolute;
+    top: 650px;
+    left: 1150px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 450px;
+  }
+
+  #flex_img {
+
+    position: absolute;
+    top: 2000px;
+    left: 150px;
+    width: 430px;
+    height: 470px;
+     
+  }
+  #flex_img2 {
+
+    position: absolute;
+    top: 2000px;
+    left: 1150px;
+    width: 300px;
+    height: 450px;
+  }
+ 
+ 
 /*#salon2 {
 
     color: white;
@@ -107,3 +145,19 @@ position: absolute;
     font-weight: bolder;
 
 } */
+
+.tour_france {
+ 
+
+
+
+}
+
+.rdv {
+
+    position: absolute; 
+    top: 2000px;
+    left: 600px;
+    width: 500px;
+
+}
