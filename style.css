@@ -68,7 +68,7 @@ nav a {
 
     position: absolute;
 
-    left: 500px ;
+    left: 590px ;
     top: 700px;
     width: 25%;
 }
@@ -159,5 +159,69 @@ nav a {
     top: 2000px;
     left: 600px;
     width: 500px;
+
+}
+
+.Blog {
+
+   position: absolute;
+   display:flex;
+   flex-direction: row;
+   top: 2500px;
+   left: 500 px;
+
+
+}
+
+.actu {
+
+  position: absolute;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1500px;
+
+
+}
+
+
+
+#fruits2 {
+
+  width: 1350px;
+  height: 350px;
+  position: absolute;
+  left: 80px;
+  top: 2770px;
+  z-index: -1;
+
+
+}
+
+#taf_sal {
+
+  position: absolute;
+  top: 3285px;
+  left: 150px;
+  width: 570px;
+  height: 550px;
+
+
+}
+
+#sal_taf {
+
+  position: absolute;
+  top: 3200px;
+  left: 1200px;
+  width: 230px;
+  height: 230px;
+
+}
+
+footer {
+
+position: absolute;
+top: 3900px;
 
 }
