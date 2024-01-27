@@ -1,3 +1,10 @@
+body {
+
+font-family: "Work Sans", sans-serif;
+
+}
+
+
 header {
 
     position: absolute;
@@ -5,6 +12,9 @@ header {
     right: 1px;
     font-size: 18px;
     color:black;
+    background-color: rgb(251, 251, 251);
+    font-family:"Poppins", sans-serif;
+    
 }
 
 
@@ -25,6 +35,7 @@ nav a {
     position: absolute;
     top:275px;
     left:150px;
+
 
    }
 
@@ -210,8 +221,8 @@ nav a {
 #actu1, #actu2, #actu3, 
 #actu4 {
 
-  width: 250px;
-  height: 200px;
+  width: 290px;
+  height: 180px;
 
 } 
 
