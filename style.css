@@ -95,6 +95,20 @@ nav a {
 
  }
 
+ .fruitstext {
+
+  position: absolute;
+  top:1250px;
+  left: 90px; 
+  display: flex;
+   flex-direction: row;
+   color: white;
+   width: 88%;
+
+  
+ }
+ 
+
   #Rasse {
 
     position: absolute;
@@ -120,7 +134,7 @@ nav a {
   #flex_img {
 
     position: absolute;
-    top: 2000px;
+    top: 1700px;
     left: 150px;
     width: 430px;
     height: 470px;
@@ -129,7 +143,7 @@ nav a {
   #flex_img2 {
 
     position: absolute;
-    top: 2000px;
+    top: 1715px;
     left: 1150px;
     width: 300px;
     height: 450px;
@@ -148,7 +162,9 @@ nav a {
 
 .tour_france {
  
-
+  position: absolute;
+  top: 1560px;
+  left: 150px;
 
 
 }
@@ -156,7 +172,7 @@ nav a {
 .rdv {
 
     position: absolute; 
-    top: 2000px;
+    top: 1700px;
     left: 600px;
     width: 500px;
 
@@ -167,10 +183,17 @@ nav a {
    position: absolute;
    display:flex;
    flex-direction: row;
-   top: 2500px;
-   left: 500 px;
+   top: 2350px;
+   left: 50px;
+  
 
+}
 
+#blog_title {
+
+  width: 70%;
+  position: relative;
+  bottom:120px;
 }
 
 .actu {
@@ -192,11 +215,12 @@ nav a {
   height: 350px;
   position: absolute;
   left: 80px;
-  top: 2770px;
+  top: 2630px;
   z-index: -1;
 
 
 }
+
 
 #taf_sal {
 
@@ -233,9 +257,9 @@ nav a {
   
 }
 
-table,tr,td {
+tr,td {
 
-  border: 1px dashed black;
+  border: 1px dashed black
 }
 
 .text_footer {
