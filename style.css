@@ -41,7 +41,7 @@ nav a {
 
 }
 
-#salon, #stand {
+#salon, #stand, #pl_sal, #Tt_Actu {
 
 
     color: white;
@@ -207,15 +207,49 @@ nav a {
 
 }
 
+#actu1, #actu2, #actu3, 
+#actu4 {
+
+  width: 250px;
+  height: 200px;
+
+} 
+
+#fake {
+
+  color:rgb(122, 24, 24);
+  text-decoration: underline;
+
+}
+
+.newsletter {
+
+  position: absolute;
+   top: 2885px;
+   left:650px;
+   width: 50%;
+   color:white;
+ 
+
+}
+
+#Tt_Actu
+{
+ position: relative;
+ top: 350px;
+ right: 665px;
+ height: 45px;
 
 
+}
+ 
 #fruits2 {
 
   width: 1350px;
   height: 350px;
   position: absolute;
-  left: 80px;
-  top: 2630px;
+  left: 90px;
+  top: 2800px;
   z-index: -1;
 
 
@@ -268,10 +302,42 @@ tr,td {
   /* Le problème vient des liens a, qui ont couleur noir.
       La priorité n'a pas l'air de marcher*/
 }
+
+
+.info  {
+  
+
+  position: absolute;
+  top: 3900px;
+
+}
+
+
+#carte  {
+
+  position: relative;
+  width: 85%;
+  left: 100px;
+
+
+}
+
+
+#black_background  {
+ 
+    background-color: rgb(33, 32, 32);
+    color:white;
+    width: 480px;
+    height: 480px;
+    position: inherit; /*Relatie grand scroll*/
+    bottom:1px;
+    left: 900px;
+  
+}
 footer {
 
 position: absolute;
-top: 3900px;
+top: 4500px;
 background-color: rgb(122, 24, 24); /* Ce n'est pas le bon rouge, je doute être pénalisé dessus
 mais ne pouvant pas le récupérer depuis la maquette c'est plus compliqué, j'ai pris celui qui y ressemblait le plus  */
 padding: 10px;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project Salon</title>
     <meta name="author" content="Duncan">
     <meta name="description" content="Reproduction de maquette figma">
     <link rel="stylesheet" href="style.css"/>
@@ -174,34 +174,34 @@
 
         <!-- Flèches à mettre-->
     
-        <!-- En temps normal, j'aurai aussi fais une div class mais en bouclant sur une variable à la place de div idr-->
+        <!-- En temps normal, j'aurai aussi fais une div class mais en bouclant sur une variable à la place des divs consécutives-->
         <div class ="actu">
 
-            <div id="actu1"> 
-            <img src=""> 
+            <div> 
+            <img id="actu1" src="./pic/Actu_1.jpg"> 
             <h6>Comment conserver son vin après ouverture ? </h6>
-            <button> En savoir plus</button>
+            <span id="fake"> En savoir plus</span>
 
         </div>
 
-        <div id="actu2"> 
-            <img src=""> 
-            <h6>Les salons du vin, des évènements vins et gastronomie et une équipe pour les organiser </h6>
-            <button> Les salons du vin </button>
+        <div> 
+            <img id="actu2" src="./pic/Actu_2.jpg"> 
+            <h6>Les salons du vin, des évènements vins et gastronomie </h6> <h6> et une équipe pour les organiser </h6>
+            <span id="fake"> Les salons du vin </span>
 
         </div>
 
-        <div id="actu2"> 
-            <img src=""> 
+        <div> 
+            <img id="actu3" src="./pic/Actu_3.jpg"> 
             <h6>2018, une année placée sous le signe du renouveau </h6>
-            <button> En savoir plus</button>
+            <span id="fake"> En savoir plus</span>
 
         </div>
 
-        <div id="actu3"> 
-            <img src=""> 
+        <div> 
+            <img id="actu4" src="./pic/Actu_4.jpg"> 
             <h6> A la découverte des confréries des vins </h6>
-            <button> En savoir plus</button>
+            <span id="fake"> En savoir plus</span>
 
         </div>
 
@@ -211,9 +211,11 @@
 
     </div>
 
-        <input class="newsletter"> 
+    <img id="fruits2" src="./pic/pexels-luiz-m-santos-760281.jpg">  <!-- Oubli de fermé une div
+     plus simple à réparer en sorti l'img de la div-->
+        <div class="newsletter"> 
 
-            <img id="fruits2" src="./pic/pexels-luiz-m-santos-760281.jpg"> 
+            
             <h4> INSCRIPTION A </h4>
             <h2> Newsletter</h2>
 
@@ -223,7 +225,9 @@
             -->
              <input type="email" placeholder="Ex:lorem.ipsum@dolorsitamet.fr">
              <input type="submit" value="S'INSCRIRE">
-             <input type="checkbox" name ="consent" />
+              <!-- J'ai conscience qu'on n'utilise pas autant les br, gain de temps-->
+             <br> <input type="checkbox" name ="consent" />
+             
              <label for="consent">Avec votre consentement, votre e-mail est utilisé par la société des vins de France
             pour recevoir notre Newsletter. <br>
             <!-- en temps normal j'aurai mis un href et que j'aurai souligné et mis en gras en css-->
@@ -272,11 +276,13 @@
         </div>
 
         <div class="info">
-        <!-- Je me permet de mettre une capture d'écran car, l'api maps est payante et les autres demande la création d'un compte-->
-        <imr src="">
+        <!-- Je me permet de mettre une capture d'écran car, l'api maps est payante et les autres demande la création d'un compte
+            Merci de ne pas me pénaliser sur ça, je ne cherche pas à tricher
+            d'ailleurs, je vais faire le background par dessus, je manque de temps-->
+        <img id="carte" src="./pic/Carte.png">
 
 
-        <div id="black_background"> </div>
+        <div id="black_background"> 
         <h6>Infos Pratique </h6>
         <h4>Comment venir ?</h4>
         <span>
@@ -287,8 +293,8 @@
 
             <p> Vendredi 2 février: <strong> de 14h à 20h30</strong> </p>
         </span>
-        <button> Plan du salon</button>
-
+        <button id="pl_sal"> Plan du salon</button>
+    </div>
 
 
 
