@@ -28,8 +28,8 @@ nav a {
    #btn_date {
 
     border-radius: 25px;
-    background-color: rgba(116, 113, 113, 0.099);
-    color:rgba(216, 213, 213, 0.788);
+    background-color: rgba(71, 70, 70, 0.045);
+    color:rgba(241, 236, 236, 0.986);
     font-weight: bolder;
     /*opacity: 40%;*/
     position: absolute;
@@ -52,7 +52,7 @@ nav a {
 
 }
 
-#salon, #stand, #pl_sal, #Tt_Actu {
+#salon, #stand, #pl_sal, #Tt_Actu, #billeterie2 {
 
 
     color: white;
@@ -62,6 +62,12 @@ nav a {
     font-weight: bold;
 
 
+}
+
+#pl_sal{
+position: relative;
+top:50px;
+left: 50px;
 }
 
 #billeterie, #expo {
@@ -345,14 +351,41 @@ tr,td {
     left: 900px;
   
 }
+
+#text_Hall {
+
+  position: relative;
+  top: 50px;
+}
+
+#inf_pra {
+
+  position: relative;
+  top: 45px;  
+  left:80px;
+  font-family:"Poppins", sans-serif;
+  font-size: 15px;
+}
+
+#com_ven {
+
+  font-size: 35px;
+  font-family:"Work Sans", sans-serif;
+  color:white;
+  position: relative;
+  left: 80px;
+  top: 50px;
+
+}
 footer {
 
 position: absolute;
 top: 4500px;
 background-color: rgb(122, 24, 24); /* Ce n'est pas le bon rouge, je doute être pénalisé dessus
 mais ne pouvant pas le récupérer depuis la maquette c'est plus compliqué, j'ai pris celui qui y ressemblait le plus  */
-padding: 10px;
+padding: 8px;
 width: 99%;
+font-size: 13px;
 color: white;
-
+font-family:"Poppins", sans-serif;
 }
