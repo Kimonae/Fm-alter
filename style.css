@@ -166,6 +166,21 @@ left: 50px;
     height: 450px;
   }
  
+   #prev {
+    font-size: 25px;
+    position: relative;
+    right: 1280px;
+    top: 70px;
+
+
+   }
+
+   #next {
+
+    font-size: 25px;
+    position: relative;
+    top: 70px;
+   }
  
 /*#salon2 {
 
@@ -208,10 +223,22 @@ left: 50px;
 
 #blog_title {
 
-  width: 70%;
+  font-size: 20px;
   position: relative;
   bottom:120px;
+  color: rgb(139, 16, 16);
+  font-family:"Work Sans", sans-serif;
 }
+
+#blog_text {
+
+  font-size: 39px;
+  position: relative;
+  bottom: 95px;
+  right: 75px;
+  font-family:"Work Sans", sans-serif;
+}
+
 
 .actu {
 
