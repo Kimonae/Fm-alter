@@ -52,7 +52,7 @@ nav a {
 
 }
 
-#salon, #stand, #pl_sal, #Tt_Actu, #billeterie2 {
+#salon, #stand, #pl_sal, #Tt_Actu, #billeterie2, #submit {
 
 
     color: white;
@@ -62,6 +62,41 @@ nav a {
     font-weight: bold;
 
 
+}
+
+#insc {
+  font-size: 16px;
+  position: relative;
+  bottom: 45px;
+  color: rgb(200, 195, 195) ;
+  font-family:"Work Sans", sans-serif;
+
+}
+
+#news {
+
+  font-size: 46px;
+  position: relative;
+  right: 120px;
+  font-family:"Work Sans", sans-serif;
+
+
+}
+
+#mail {
+
+  background-color: white;
+   border-radius: 50px, 25px;
+   padding: 15px;
+
+
+}
+
+#submit {
+
+  position: relative;
+  right: 23px;
+  z-index: -1;
 }
 
 #pl_sal{
@@ -300,7 +335,7 @@ left: 50px;
 {
  position: relative;
  top: 350px;
- right: 665px;
+ right: 765px;
  height: 45px;
 
 
